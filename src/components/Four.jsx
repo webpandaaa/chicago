@@ -10,7 +10,7 @@ export default function Four() {
           {/* Left Section */}
           <div className="bg-[#D19F49] pl-10 pt-20 rounded-lg text-white">
             <h2 className="text-4xl font-bold">Dining Hours</h2>
-            <p className="mt-6 w-[30vw]">
+            <p className="mt-6 md:w-[30vw]">
               Stop by today and see for yourself what makes{" "}
               <span className="font-bold">
                 Chicago Pizza Oven and Grinder Co.
@@ -23,7 +23,7 @@ export default function Four() {
           </div>
 
           {/* Right Section */}
-          <div>
+          <div className="hidden md:block">
             <img src="../Seven.png" alt="People enjoying pizza" className="" />
           </div>
         </div>
@@ -48,9 +48,7 @@ export default function Four() {
             <span className="opacity-50 flex">
               <Dot /> THUR : 4PM-10PM
             </span>
-            <span className="opacity-50 flex">
-               --- FRI : 4PM-11PM  ---
-            </span>
+            <span className="opacity-50 flex">--- FRI : 4PM-11PM ---</span>
             <span className="opacity-50 flex">
               <Dot /> SAT : 11AM-11PM
             </span>
@@ -71,9 +69,7 @@ export default function Four() {
             <span className="opacity-50 flex">
               <Dot /> THUR : 4PM-10PM
             </span>
-            <span className="opacity-50 flex">
-               --- FRI : 4PM-11PM  ---
-            </span>
+            <span className="opacity-50 flex">--- FRI : 4PM-11PM ---</span>
             <span className="opacity-50 flex">
               <Dot /> SAT : 11AM-11PM
             </span>
@@ -94,9 +90,7 @@ export default function Four() {
             <span className="opacity-50 flex">
               <Dot /> THUR : 4PM-10PM
             </span>
-            <span className="opacity-50 flex">
-               --- FRI : 4PM-11PM  ---
-            </span>
+            <span className="opacity-50 flex">--- FRI : 4PM-11PM ---</span>
             <span className="opacity-50 flex">
               <Dot /> SAT : 11AM-11PM
             </span>
@@ -117,9 +111,7 @@ export default function Four() {
             <span className="opacity-50 flex">
               <Dot /> THUR : 4PM-10PM
             </span>
-            <span className="opacity-50 flex">
-               --- FRI : 4PM-11PM  ---
-            </span>
+            <span className="opacity-50 flex">--- FRI : 4PM-11PM ---</span>
             <span className="opacity-50 flex">
               <Dot /> SAT : 11AM-11PM
             </span>
@@ -140,14 +132,11 @@ export default function Four() {
             <span className="opacity-50 flex">
               <Dot /> THUR : 4PM-10PM
             </span>
-            <span className="opacity-50 flex">
-               --- FRI : 4PM-11PM  ---
-            </span>
+            <span className="opacity-50 flex">--- FRI : 4PM-11PM ---</span>
             <span className="opacity-50 flex">
               <Dot /> SAT : 11AM-11PM
             </span>
           </div>
-          
         </div>
       </div>
     </div>
